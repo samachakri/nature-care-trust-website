@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nature Care Trust | Sacred Groves, Native Afforestation & Elder Care</title>
+  <meta name="description" content="Registered 80G charitable trust restoring native forest canopies, providing barrier-free elder nature respite, and nurturing sacred groves in the Western Ghats.">
+  <meta name="keywords" content="native tree plantation elder care, nature care trust, 80g donation trees, western ghats sacred groves">
+  <link rel="canonical" href="https://naturecaretrust.com/">
+  <meta property="og:title" content="Nature Care Trust | Sacred Groves & Elder Care">
+  <meta property="og:description" content="Restoring native biodiversity and providing barrier-free elder sanctuaries in the Western Ghats.">
+  <meta property="og:image" content="/assets/images/hero-forest.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="/assets/images/logo.jpg">
+  <link rel="apple-touch-icon" href="/assets/images/logo.jpg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            forest: '#012413',
+            'forest-dark': '#00170c',
+            pine: '#02371d',
+            sage: '#e9ffec',
+            'sage-light': '#f4fbf5',
+            mint: '#c7fad6',
+            'mint-light': '#e2fbe9',
+            terracotta: '#7d562d',
+            'terracotta-light': '#986b3b',
+            golden: '#ffdf96'
+          },
+          fontFamily: {
+            serif: ['"Source Serif 4"', 'Georgia', 'serif'],
+            sans: ['"Manrope"', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="font-sans text-forest bg-sage-light antialiased selection:bg-mint selection:text-forest">
+
+  <!-- TOP ANNOUNCEMENT BAR (Clean 80G tax benefit notice) -->
+  <div class="bg-forest text-sage text-xs py-2 px-4 text-center tracking-wide border-b border-white/10 font-medium">
+    <span>🌱 Contributions are eligible for 50% Tax Exemption under Section 80G • Reg. No. E-21448</span>
+  </div>
+
+  <!-- NAVIGATION HEADER (Strictly Logo-Only with 5 Nav Links + Plant a Tree CTA) -->
+  <header class="sticky top-0 z-50 bg-[#e9ffec]/95 backdrop-blur-md border-b border-forest/10 transition-all duration-300 shadow-sm" id="mainHeader">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- LOGO ONLY (No text next to it as requested) -->
+      <a href="/" class="flex items-center group py-2" aria-label="Nature Care Trust Home">
+        <img src="/assets/images/logo.jpg" alt="Nature Care Trust Emblem" class="w-12 h-12 md:w-14 md:h-14 rounded-full object-cover shadow-sm ring-2 ring-forest/15 group-hover:ring-terracotta transition-all duration-300">
+      </a>
+
+      <!-- DESKTOP NAVIGATION (5 Pages) -->
+      <nav class="hidden md:flex items-center space-x-8 font-medium text-[15px] text-forest/90">
+        <a href="/" class="text-terracotta font-semibold hover:text-forest transition-colors">Home</a>
+        <a href="/about-us/" class="hover:text-terracotta transition-colors">About Us</a>
+        <a href="/living-programs/" class="hover:text-terracotta transition-colors">Living Programs</a>
+        <a href="/blog/" class="hover:text-terracotta transition-colors">Blog</a>
+        <a href="/contact-and-visit/" class="hover:text-terracotta transition-colors">Contact & Visit</a>
+      </nav>
+
+      <!-- CTA BUTTON -->
+      <div class="hidden sm:flex items-center space-x-4">
+        <a href="#plant-gift" class="inline-flex items-center justify-center px-5 py-2.5 rounded-full text-sm font-semibold text-white bg-terracotta hover:bg-terracotta-light shadow-md hover:shadow-lg transition-all duration-200">
+          Plant a Tree
+          <svg class="w-4 h-4 ml-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+        </a>
+      </div>
+
+      <!-- MOBILE MENU TOGGLE -->
+      <button id="mobileMenuBtn" type="button" class="md:hidden p-2 rounded-lg text-forest hover:bg-forest/10 focus:outline-none" aria-label="Toggle Navigation">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+
+    <!-- MOBILE DROPDOWN -->
+    <div id="mobileMenu" class="hidden md:hidden bg-sage-light border-b border-forest/10 px-6 py-5 space-y-4 shadow-xl">
+      <a href="/" class="block text-base font-semibold text-terracotta">Home</a>
+      <a href="/about-us/" class="block text-base font-medium text-forest hover:text-terracotta">About Us</a>
+      <a href="/living-programs/" class="block text-base font-medium text-forest hover:text-terracotta">Living Programs</a>
+      <a href="/blog/" class="block text-base font-medium text-forest hover:text-terracotta">Blog</a>
+      <a href="/contact-and-visit/" class="block text-base font-medium text-forest hover:text-terracotta">Contact & Visit</a>
+      <div class="pt-2">
+        <a href="#plant-gift" class="w-full inline-flex items-center justify-center px-5 py-3 rounded-full text-sm font-semibold text-white bg-terracotta hover:bg-terracotta-light text-center">
+          Plant a Tree (80G Tax-Exempt)
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION (Strictly clean: no film/photo pills, no watch story pill, no sacred grove emblem pill) -->
+    <section class="relative min-h-[82vh] flex items-center justify-center bg-forest text-white overflow-hidden">
+      <!-- Background Image with Ambient Gradient Overlay -->
+      <div class="absolute inset-0 z-0">
+        <img id="heroBgImage" src="/assets/images/hero-forest.jpg" alt="Western Ghats Sacred Canopy" class="w-full h-full object-cover object-center scale-105 transform motion-safe:animate-[pulse_10s_ease-in-out_infinite]">
+        <div class="absolute inset-0 bg-gradient-to-t from-forest via-forest/80 to-forest/50"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-forest/90 via-transparent to-forest/70"></div>
+      </div>
+
+      <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
+        <!-- Main Headline -->
+        <h1 id="heroHeadline" class="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white leading-[1.15] mb-6 drop-shadow-md">
+          Where elders and ancient forests flourish together.
+        </h1>
+
+        <!-- Subtitle -->
+        <p id="heroSubtitle" class="max-w-3xl mx-auto text-lg sm:text-xl md:text-2xl text-sage/90 font-light leading-relaxed mb-10">
+          A barrier-free woodland sanctuary uniting elder care, indigenous groves, and intergenerational stewardship across the Western Ghats.
+        </p>
+
+        <!-- Clean Call To Actions -->
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
+          <a href="#plant-gift" id="heroDonateBtn" class="w-full sm:w-auto px-8 py-4 rounded-full text-base font-semibold text-forest bg-golden hover:bg-yellow-200 shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300">
+            Plant a Tree (80G Tax-Exempt)
+          </a>
+          <a href="#programs" id="heroExploreBtn" class="w-full sm:w-auto px-8 py-4 rounded-full text-base font-medium text-white border-2 border-white/40 hover:border-white hover:bg-white/10 transition-all duration-300">
+            Explore Living Programs ↓
+          </a>
+        </div>
+      </div>
+
+      <!-- Bottom Edge Curve Wave -->
+      <div class="absolute bottom-0 inset-x-0 h-10 bg-sage-light" style="clip-path: polygon(0 100%, 100% 100%, 100% 0);"></div>
+    </section>
+
+    <!-- TRUST VITALS / IMPACT COUNTERS -->
+    <section class="py-12 bg-sage-light border-b border-forest/10">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+          
+          <div class="p-6 rounded-2xl bg-white border border-forest/10 shadow-sm hover:shadow-md transition-shadow">
+            <div id="statTrees" class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-forest mb-1">250,000+</div>
+            <div class="text-xs sm:text-sm font-semibold uppercase tracking-wider text-terracotta">Native Canopy Trees</div>
+            <div class="text-xs text-forest/60 mt-1">Planted & Protected</div>
+          </div>
+
+          <div class="p-6 rounded-2xl bg-white border border-forest/10 shadow-sm hover:shadow-md transition-shadow">
+            <div id="statElders" class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-forest mb-1">18,400+</div>
+            <div class="text-xs sm:text-sm font-semibold uppercase tracking-wider text-terracotta">Elders Supported</div>
+            <div class="text-xs text-forest/60 mt-1">With Respite & Nature Care</div>
+          </div>
+
+          <div class="p-6 rounded-2xl bg-white border border-forest/10 shadow-sm hover:shadow-md transition-shadow">
+            <div id="statTrails" class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-forest mb-1">100%</div>
+            <div class="text-xs sm:text-sm font-semibold uppercase tracking-wider text-terracotta">Barrier-Free Trails</div>
+            <div class="text-xs text-forest/60 mt-1">Wheelchair & Cane Friendly</div>
+          </div>
+
+          <div class="p-6 rounded-2xl bg-white border border-forest/10 shadow-sm hover:shadow-md transition-shadow">
+            <div id="statSpecies" class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-forest mb-1">42 Species</div>
+            <div class="text-xs sm:text-sm font-semibold uppercase tracking-wider text-terracotta">Sacred & Medicinal</div>
+            <div class="text-xs text-forest/60 mt-1">Indigenous Western Ghats Flora</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- LIVING PROGRAMS SECTION -->
+    <section id="programs" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="max-w-3xl mb-14">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-semibold bg-mint/50 text-pine uppercase tracking-wider mb-3">
+            Active Conservation & Respite
+          </div>
+          <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-forest leading-tight mb-4">
+            Living Programs Nurturing Both Canopy & Community
+          </h2>
+          <p class="text-forest/75 text-lg">
+            Our initiatives connect deep botanical restoration with human warmth, giving seniors peaceful sanctuary while regenerating vital ecosystems.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          
+          <!-- Program Card 1 -->
+          <div class="group rounded-3xl overflow-hidden bg-sage-light border border-forest/10 hover:border-terracotta/40 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
+            <div class="relative h-64 overflow-hidden">
+              <img src="/assets/images/village-trees.jpg" alt="Village Native Tree Plantation" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <span class="absolute top-4 left-4 px-3 py-1 bg-forest/90 text-mint text-xs font-semibold rounded-full backdrop-blur-sm">
+                Rural Afforestation
+              </span>
+            </div>
+            <div class="p-7 flex-1 flex flex-col justify-between">
+              <div>
+                <span class="text-xs font-semibold tracking-wider text-terracotta uppercase">140+ Catchment Groves</span>
+                <h3 class="font-serif text-2xl font-bold text-forest mt-1 mb-3">Village Native Tree Plantation Drives</h3>
+                <p class="text-forest/70 text-sm leading-relaxed mb-6">
+                  Mass afforestation across rural commons and farmers' land, revitalizing depleted groundwater tables and preserving heirloom indigenous saplings.
+                </p>
+              </div>
+              <a href="/living-programs/" class="inline-flex items-center text-sm font-semibold text-terracotta group-hover:text-forest">
+                Discover Village Initiatives
+                <svg class="w-4 h-4 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Program Card 2 -->
+          <div class="group rounded-3xl overflow-hidden bg-sage-light border border-forest/10 hover:border-terracotta/40 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
+            <div class="relative h-64 overflow-hidden">
+              <img src="/assets/images/hero-forest.jpg" alt="Apartment and Gated Greening" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <span class="absolute top-4 left-4 px-3 py-1 bg-forest/90 text-mint text-xs font-semibold rounded-full backdrop-blur-sm">
+                Urban Micro-Forests
+              </span>
+            </div>
+            <div class="p-7 flex-1 flex flex-col justify-between">
+              <div>
+                <span class="text-xs font-semibold tracking-wider text-terracotta uppercase">45+ Residential Enclaves</span>
+                <h3 class="font-serif text-2xl font-bold text-forest mt-1 mb-3">Apartment & Gated Greening</h3>
+                <p class="text-forest/70 text-sm leading-relaxed mb-6">
+                  Transforming urban housing complexes with Miyawaki bio-dense mini-groves, organic edible herb gardens, and therapeutic walking trails for elderly residents.
+                </p>
+              </div>
+              <a href="/living-programs/" class="inline-flex items-center text-sm font-semibold text-terracotta group-hover:text-forest">
+                Explore Urban Greening
+                <svg class="w-4 h-4 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Program Card 3 -->
+          <div class="group rounded-3xl overflow-hidden bg-sage-light border border-forest/10 hover:border-terracotta/40 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
+            <div class="relative h-64 overflow-hidden">
+              <img src="/assets/images/family-planting.jpg" alt="Elder Nature Respite" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              <span class="absolute top-4 left-4 px-3 py-1 bg-forest/90 text-mint text-xs font-semibold rounded-full backdrop-blur-sm">
+                Elder Care & Dignity
+              </span>
+            </div>
+            <div class="p-7 flex-1 flex flex-col justify-between">
+              <div>
+                <span class="text-xs font-semibold tracking-wider text-terracotta uppercase">Daily Respite Retreats</span>
+                <h3 class="font-serif text-2xl font-bold text-forest mt-1 mb-3">Elder Nature Respite & Day Care</h3>
+                <p class="text-forest/70 text-sm leading-relaxed mb-6">
+                  Peaceful sanctuary featuring soft pine needle walking paths, wheelchair ramps, sensory herbal therapy gazebos, and gentle intergenerational companionship.
+                </p>
+              </div>
+              <a href="/living-programs/" class="inline-flex items-center text-sm font-semibold text-terracotta group-hover:text-forest">
+                Learn About Elder Care
+                <svg class="w-4 h-4 ml-1.5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PHILOSOPHY / ABOUT SPOTLIGHT -->
+    <section class="py-20 bg-forest text-white relative overflow-hidden">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          
+          <div>
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-white/10 text-mint uppercase tracking-wider mb-4">
+              Our 18-Year Heritage
+            </div>
+            <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-6">
+              Rooted in Soil, Bound by Care.
+            </h2>
+            <p class="text-sage/80 text-lg leading-relaxed mb-6">
+              Nature Care Trust was established on a single profound truth: the health of our elders and the health of our earth are intrinsically linked. When seniors walk amidst towering sacred banyans and breathe undisturbed forest air, healing happens naturally.
+            </p>
+            <div class="grid grid-cols-2 gap-6 pt-4 border-t border-white/10">
+              <div>
+                <div class="text-golden font-serif text-2xl font-bold mb-1">Zero Chemicals</div>
+                <div class="text-sm text-sage/70">100% organic, bio-diverse native species restoration</div>
+              </div>
+              <div>
+                <div class="text-golden font-serif text-2xl font-bold mb-1">Section 80G</div>
+                <div class="text-sm text-sage/70">Full tax receipt and annual geo-tagged impact auditing</div>
+              </div>
+            </div>
+            <div class="mt-8">
+              <a href="/about-us/" class="inline-flex items-center text-golden font-semibold hover:text-white transition-colors">
+                Read the Complete Trust Charter & Leadership
+                <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="relative">
+            <div class="relative rounded-3xl overflow-hidden shadow-2xl ring-1 ring-white/20">
+              <img src="/assets/images/family-planting.jpg" alt="Elders and family planting tree" class="w-full h-auto object-cover">
+            </div>
+            <div class="absolute -bottom-6 -left-6 bg-sage p-6 rounded-2xl shadow-xl border border-forest/10 max-w-xs text-forest hidden sm:block">
+              <div class="text-xs font-semibold tracking-wider uppercase text-terracotta">Intergenerational Bond</div>
+              <p class="text-sm font-medium mt-1">"When our hands touch the soil together, grandchildren learn reverence, and grandparents find renewed joy."</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERACTIVE TREE DEDICATION & 80G DONATION SECTION -->
+    <section id="plant-gift" class="py-20 bg-sage-light">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center mb-12">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-semibold bg-terracotta/10 text-terracotta uppercase tracking-wider mb-3">
+            Tax-Exempt Contribution
+          </div>
+          <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-forest mb-4">
+            Dedicate a Living Native Tree Grove
+          </h2>
+          <p class="text-forest/75 text-lg max-w-2xl mx-auto">
+            Celebrate a birthday, memorialize an elder, or plant for future generations. Receive a geo-tagged digital certificate and Section 80G tax receipt immediately.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-3xl p-8 sm:p-10 shadow-lg border border-forest/10">
+          
+          <!-- Tree Selector Chips -->
+          <div class="mb-8">
+            <label class="block text-sm font-bold text-forest uppercase tracking-wider mb-3">Select Number of Saplings:</label>
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-3" id="treeOptions">
+              <button type="button" data-trees="5" data-cost="2500" class="tree-btn py-3 px-4 rounded-xl border-2 border-forest/15 hover:border-forest text-center font-bold text-forest transition-all focus:outline-none">
+                <span class="block text-lg">5 Trees</span>
+                <span class="text-xs text-forest/60">₹2,500</span>
+              </button>
+              <button type="button" data-trees="11" data-cost="5500" class="tree-btn active py-3 px-4 rounded-xl border-2 border-terracotta bg-terracotta text-white text-center font-bold transition-all focus:outline-none shadow-md">
+                <span class="block text-lg">11 Trees</span>
+                <span class="text-xs text-white/90">₹5,500 (Popular)</span>
+              </button>
+              <button type="button" data-trees="25" data-cost="12500" class="tree-btn py-3 px-4 rounded-xl border-2 border-forest/15 hover:border-forest text-center font-bold text-forest transition-all focus:outline-none">
+                <span class="block text-lg">25 Trees</span>
+                <span class="text-xs text-forest/60">₹12,500</span>
+              </button>
+              <button type="button" data-trees="101" data-cost="50500" class="tree-btn py-3 px-4 rounded-xl border-2 border-forest/15 hover:border-forest text-center font-bold text-forest transition-all focus:outline-none">
+                <span class="block text-lg">Sacred Grove (101)</span>
+                <span class="text-xs text-forest/60">₹50,500</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Impact Summary Bar -->
+          <div class="bg-sage rounded-2xl p-5 mb-8 flex flex-col sm:flex-row items-center justify-between gap-4 border border-forest/10">
+            <div>
+              <div class="text-xs font-semibold uppercase tracking-wider text-forest/60">Selected Dedication</div>
+              <div id="selectedSummary" class="text-xl font-bold font-serif text-forest">11 Native Canopy Saplings (₹5,500)</div>
+              <div class="text-xs text-forest/70 mt-0.5">Includes sapling nurture, geotagging, and 3 years organic mulch care</div>
+            </div>
+            <div class="text-right">
+              <span class="inline-flex items-center px-3 py-1 bg-mint text-pine font-semibold text-xs rounded-full">
+                50% Tax Relief (80G)
+              </span>
+            </div>
+          </div>
+
+          <!-- Quick Dedication Form -->
+          <form id="dedicationForm" class="space-y-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs font-semibold uppercase text-forest/70 mb-1">Your Full Name *</label>
+                <input type="text" required placeholder="Chakradhar Reddy" class="w-full px-4 py-3 rounded-xl border border-forest/20 focus:border-terracotta focus:ring-2 focus:ring-terracotta/20 outline-none text-sm">
+              </div>
+              <div>
+                <label class="block text-xs font-semibold uppercase text-forest/70 mb-1">Email for 80G Receipt *</label>
+                <input type="email" required placeholder="samachakriofficial@gmail.com" class="w-full px-4 py-3 rounded-xl border border-forest/20 focus:border-terracotta focus:ring-2 focus:ring-terracotta/20 outline-none text-sm">
+              </div>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs font-semibold uppercase text-forest/70 mb-1">Phone / WhatsApp *</label>
+                <input type="tel" required placeholder="+91 98765 43210" class="w-full px-4 py-3 rounded-xl border border-forest/20 focus:border-terracotta focus:ring-2 focus:ring-terracotta/20 outline-none text-sm">
+              </div>
+              <div>
+                <label class="block text-xs font-semibold uppercase text-forest/70 mb-1">Dedication Note / In Honor Of (Optional)</label>
+                <input type="text" placeholder="In loving memory of beloved elders..." class="w-full px-4 py-3 rounded-xl border border-forest/20 focus:border-terracotta focus:ring-2 focus:ring-terracotta/20 outline-none text-sm">
+              </div>
+            </div>
+
+            <div class="pt-4">
+              <button type="submit" class="w-full py-4 rounded-xl bg-terracotta hover:bg-terracotta-light text-white font-bold text-base shadow-lg hover:shadow-xl transition-all">
+                Proceed with 80G Tax-Deductible Contribution
+              </button>
+            </div>
+            <p class="text-xs text-center text-forest/60">Official Trust Tax Receipt (AAATN1843RF20214) with Form 10BE certificate dispatched instantly via email.</p>
+          </form>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- RECENT FIELD DISPATCHES / BLOG SNIPPET -->
+    <section class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="flex flex-col sm:flex-row sm:items-end justify-between mb-12">
+          <div>
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-mint/50 text-pine uppercase tracking-wider mb-2">
+              From the Soil
+            </div>
+            <h2 class="font-serif text-3xl sm:text-4xl font-bold text-forest">Field Notes & Grove Chronicles</h2>
+          </div>
+          <a href="/blog/" class="mt-4 sm:mt-0 inline-flex items-center text-sm font-semibold text-terracotta hover:text-forest">
+            View All Dispatches
+            <svg class="w-4 h-4 ml-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+          </a>
+        </div>
+
+        <div id="homeBlogGrid" class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Dynamically populated or fallback -->
+          <article class="p-6 rounded-2xl bg-sage-light border border-forest/10 hover:shadow-lg transition-all flex flex-col justify-between">
+            <div>
+              <span class="text-xs font-semibold text-terracotta uppercase">Western Ghats</span>
+              <h3 class="font-serif text-xl font-bold text-forest mt-2 mb-3">Reviving Ancient Sacred Groves: A Botanical Odyssey</h3>
+              <p class="text-sm text-forest/70 mb-4">How our ecological team identified 42 keystone tree species and reconnected fragmented forest corridors with village youth.</p>
+            </div>
+            <a href="/blog/" class="text-xs font-bold text-terracotta hover:text-forest">Read Journal →</a>
+          </article>
+
+          <article class="p-6 rounded-2xl bg-sage-light border border-forest/10 hover:shadow-lg transition-all flex flex-col justify-between">
+            <div>
+              <span class="text-xs font-semibold text-terracotta uppercase">Elder Care</span>
+              <h3 class="font-serif text-xl font-bold text-forest mt-2 mb-3">Forest Bathing & Dementia: Healing in Woodland Sanctuaries</h3>
+              <p class="text-sm text-forest/70 mb-4">Clinical observations on sensory stimulation through native barks, pine scents, and gentle companionship for our cherished elders.</p>
+            </div>
+            <a href="/blog/" class="text-xs font-bold text-terracotta hover:text-forest">Read Journal →</a>
+          </article>
+
+          <article class="p-6 rounded-2xl bg-sage-light border border-forest/10 hover:shadow-lg transition-all flex flex-col justify-between">
+            <div>
+              <span class="text-xs font-semibold text-terracotta uppercase">Community</span>
+              <h3 class="font-serif text-xl font-bold text-forest mt-2 mb-3">100,000 Seeds in Clay: The Monsoons Awakening</h3>
+              <p class="text-sm text-forest/70 mb-4">How school children and elders handcrafted seedballs to regenerate barren hillsides ahead of the annual monsoon torrents.</p>
+            </div>
+            <a href="/blog/" class="text-xs font-bold text-terracotta hover:text-forest">Read Journal →</a>
+          </article>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- 4-COLUMN FOOTER -->
+  <footer class="bg-forest text-sage pt-16 pb-12 border-t border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-white/10">
+        
+        <!-- Col 1: Trust Profile (Clean Logo & Mission) -->
+        <div class="space-y-4">
+          <div class="flex items-center space-x-3">
+            <img src="/assets/images/logo.jpg" alt="Nature Care Trust" class="w-12 h-12 rounded-full object-cover ring-2 ring-golden/50">
+            <div>
+              <span class="block font-serif font-bold text-lg text-white">Nature Care Trust</span>
+              <span class="block text-xs text-mint">Nurturing Nature & People</span>
+            </div>
+          </div>
+          <p class="text-xs text-sage/75 leading-relaxed">
+            Registered 80G Public Charitable Trust dedicated to native bio-diverse reforestation and barrier-free woodland elder respite sanctuaries.
+          </p>
+          <div class="text-xs text-golden font-medium pt-1">
+            Trust Reg. No: E-21448 • 80G Exempt
+          </div>
+        </div>
+
+        <!-- Col 2: Navigation Links -->
+        <div>
+          <h4 class="font-serif text-white font-bold text-base mb-4">Explore</h4>
+          <ul class="space-y-2.5 text-xs text-sage/80">
+            <li><a href="/" class="hover:text-golden transition-colors">Home</a></li>
+            <li><a href="/about-us/" class="hover:text-golden transition-colors">About Us & Trust Charter</a></li>
+            <li><a href="/living-programs/" class="hover:text-golden transition-colors">Living Programs</a></li>
+            <li><a href="/blog/" class="hover:text-golden transition-colors">Field Notes & Blog</a></li>
+            <li><a href="/contact-and-visit/" class="hover:text-golden transition-colors">Plan Your Sanctuary Visit</a></li>
+            <li><a href="https://dashboard.naturecaretrust.com" target="_blank" class="text-mint font-semibold hover:underline">Staff Dashboard Login ↗</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Programs & Tax Benefits -->
+        <div>
+          <h4 class="font-serif text-white font-bold text-base mb-4">Programs</h4>
+          <ul class="space-y-2.5 text-xs text-sage/80">
+            <li>Village Native Afforestation Drives</li>
+            <li>Apartment & Gated Greening</li>
+            <li>Elder Nature Respite & Day Care</li>
+            <li>Indigenous Seed Bank & Biochar</li>
+            <li>Corporate CSR Partnerships (Schedule VII)</li>
+            <li>Memorial & Celebration Tree Planting</li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Trust Sanctuary Location & Contact -->
+        <div>
+          <h4 class="font-serif text-white font-bold text-base mb-4">Sanctuary Grounds</h4>
+          <p class="text-xs text-sage/80 leading-relaxed mb-3">
+            Banyan Valley Foothills, Sector 14,<br>
+            Western Ghats Ecological Reserve,<br>
+            Maharashtra - 410401
+          </p>
+          <div class="text-xs text-sage/80 space-y-1">
+            <div><strong>Hours:</strong> Open Daily 06:30 - 17:30</div>
+            <div><strong>Email:</strong> care@naturecaretrust.org</div>
+            <div><strong>Helpline:</strong> +91 22 2847 9000</div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-sage/60 gap-4">
+        <div>
+          © 2006–2026 Nature Care Trust. All rights reserved. Registered under Indian Trusts Act, 1882.
+        </div>
+        <div class="flex space-x-6">
+          <a href="/contact-and-visit/" class="hover:text-sage">Privacy Policy</a>
+          <a href="/contact-and-visit/" class="hover:text-sage">Terms of Sanctuary</a>
+          <a href="https://dashboard.naturecaretrust.com" class="hover:text-golden">Dynamic Management Console</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- SCRIPT FOR DYNAMIC SYNC & INTERACTIVE TREE DEDICATION -->
+  <script>
+    // Mobile navigation toggle
+    const mobileBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    mobileBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // Dynamic Tree Selector
+    const treeButtons = document.querySelectorAll('.tree-btn');
+    const selectedSummary = document.getElementById('selectedSummary');
+    treeButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        treeButtons.forEach(b => {
+          b.classList.remove('bg-terracotta', 'text-white', 'border-terracotta', 'shadow-md');
+          b.classList.add('border-forest/15', 'text-forest');
+        });
+        btn.classList.remove('border-forest/15', 'text-forest');
+        btn.classList.add('bg-terracotta', 'text-white', 'border-terracotta', 'shadow-md');
+        
+        const count = btn.dataset.trees;
+        const cost = Number(btn.dataset.cost).toLocaleString('en-IN');
+        selectedSummary.textContent = `${count} Native Canopy Saplings (₹${cost})`;
+      });
+    });
+
+    // Handle Dedication Form Submit
+    document.getElementById('dedicationForm').addEventListener('submit', (e) => {
+      e.preventDefault();
+      alert('Thank you for initiating your tree dedication with Nature Care Trust! Your 80G tax receipt and geotagged certificate link will be sent to your email.');
+    });
+
+    // Dynamic Content Fetch from Local API (Dashboard Updates)
+    async function loadDynamicContent() {
+      try {
+        const res = await fetch('/api/content.php');
+        if (!res.ok) return;
+        const data = await res.json();
+        
+        if (data.hero) {
+          if (data.hero.headline) document.getElementById('heroHeadline').textContent = data.hero.headline;
+          if (data.hero.subtitle) document.getElementById('heroSubtitle').textContent = data.hero.subtitle;
+          if (data.hero.bgImage) document.getElementById('heroBgImage').src = data.hero.bgImage;
+        }
+        if (data.stats) {
+          if (data.stats.treesCount) document.getElementById('statTrees').textContent = data.stats.treesCount;
+          if (data.stats.eldersCount) document.getElementById('statElders').textContent = data.stats.eldersCount;
+          if (data.stats.trailsCount) document.getElementById('statTrails').textContent = data.stats.trailsCount;
+          if (data.stats.speciesCount) document.getElementById('statSpecies').textContent = data.stats.speciesCount;
+        }
+      } catch (err) {
+        console.log('Using static content fallback:', err);
+      }
+    }
+    loadDynamicContent();
+
+    // Dynamic Blog List Fetch
+    async function loadDynamicBlogs() {
+      try {
+        const res = await fetch('/api/blogs.php');
+        if (!res.ok) return;
+        const blogs = await res.json();
+        if (Array.isArray(blogs) && blogs.length > 0) {
+          const grid = document.getElementById('homeBlogGrid');
+          grid.innerHTML = blogs.slice(0, 3).map(b => `
+            <article class="p-6 rounded-2xl bg-sage-light border border-forest/10 hover:shadow-lg transition-all flex flex-col justify-between">
+              <div>
+                <span class="text-xs font-semibold text-terracotta uppercase">${b.category || 'Field Note'}</span>
+                <h3 class="font-serif text-xl font-bold text-forest mt-2 mb-3">${b.title}</h3>
+                <p class="text-sm text-forest/70 mb-4">${b.excerpt || ''}</p>
+              </div>
+              <a href="/blog/post.html?slug=${b.slug}" class="text-xs font-bold text-terracotta hover:text-forest">Read Journal →</a>
+            </article>
+          `).join('');
+        }
+      } catch (e) {
+        console.log('Blog fallback loaded');
+      }
+    }
+    loadDynamicBlogs();
+  </script>
+</body>
+</html>

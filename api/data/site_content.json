@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "headline": "Where elders and ancient forests flourish together.",
+    "subtitle": "A barrier-free woodland sanctuary uniting elder care, indigenous groves, and intergenerational stewardship across the Western Ghats.",
+    "exploreBtnText": "Explore Sanctuary ↓",
+    "exploreBtnLink": "#programs-services",
+    "donateBtnText": "Plant a Tree (80G Tax-Exempt)",
+    "donateBtnLink": "#plant-gift",
+    "bgImage": "/assets/images/hero-forest.jpg"
+  },
+  "stats": {
+    "treesCount": "250,000+",
+    "treesLabel": "Native Canopy Trees",
+    "eldersCount": "18,400+",
+    "eldersLabel": "Elders Supported",
+    "trailsCount": "100%",
+    "trailsLabel": "Barrier-Free Soft Trails",
+    "speciesCount": "42 Species",
+    "speciesLabel": "Sacred Banyan & Herbs"
+  },
+  "programs": [
+    {
+      "id": "p1",
+      "title": "Village Native Tree Plantation Drives",
+      "description": "Mass afforestation across rural commons and farmers' land, restoring depleted water tables and soil fertility.",
+      "tag": "Rural Forestry",
+      "image": "/assets/images/village-trees.jpg",
+      "highlight": "140+ village catchment groves"
+    },
+    {
+      "id": "p2",
+      "title": "Apartment & Gated Greening",
+      "description": "Urban micro-forests, organic kitchen gardens, and elder botanical relaxation gazebos inside residential communities.",
+      "tag": "Urban Forestry",
+      "image": "/assets/images/hero-forest.jpg",
+      "highlight": "45+ residential complexes"
+    },
+    {
+      "id": "p3",
+      "title": "Elder Nature Respite & Day Care",
+      "description": "Day retreat sanctuary with soft pine needle walkways, sensory herbal beds, and intergenerational companionship.",
+      "tag": "Elder Wellness",
+      "image": "/assets/images/family-planting.jpg",
+      "highlight": "Daily transport & ayurvedic care"
+    }
+  ],
+  "trustDetails": {
+    "name": "Nature Care Trust",
+    "tagline": "Nurturing Nature & People",
+    "regNumber": "Public Charitable Trust Reg. No. E-21448",
+    "taxRelief": "Section 80G (50% Tax Exemption - Reg #AAATN1843RF20214)",
+    "phone": "+91 22 2847 9000 (Mon-Sat, 9AM-5PM)",
+    "email": "care@naturecaretrust.org",
+    "address": "Banyan Valley Foothills, Sector 14, Western Ghats Reserve, MH - 410401",
+    "hours": "Visitor Gates Open Daily: 06:30 - 17:30"
+  }
+}

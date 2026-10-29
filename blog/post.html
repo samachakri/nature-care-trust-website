@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="pageTitle">Field Note | Nature Care Trust</title>
+  <meta id="metaDesc" name="description" content="Read field notes and stories from Nature Care Trust's conservation and elder respite sanctuary.">
+  
+  <link rel="icon" type="image/jpeg" href="/assets/images/logo.jpg">
+  <link rel="apple-touch-icon" href="/assets/images/logo.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            forest: '#012413',
+            'forest-dark': '#00170c',
+            pine: '#02371d',
+            sage: '#e9ffec',
+            'sage-light': '#f4fbf5',
+            mint: '#c7fad6',
+            terracotta: '#7d562d',
+            'terracotta-light': '#986b3b',
+            golden: '#ffdf96'
+          },
+          fontFamily: {
+            serif: ['"Source Serif 4"', 'Georgia', 'serif'],
+            sans: ['"Manrope"', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="font-sans text-forest bg-sage-light antialiased selection:bg-mint selection:text-forest">
+
+  <!-- TOP BAR -->
+  <div class="bg-forest text-sage text-xs py-2 px-4 text-center tracking-wide border-b border-white/10 font-medium">
+    <span>🌱 Contributions are eligible for 50% Tax Exemption under Section 80G • Reg. No. E-21448</span>
+  </div>
+
+  <!-- NAVIGATION HEADER -->
+  <header class="sticky top-0 z-50 bg-[#e9ffec]/95 backdrop-blur-md border-b border-forest/10 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- LOGO ONLY -->
+      <a href="/" class="flex items-center group py-2" aria-label="Nature Care Trust Home">
+        <img src="/assets/images/logo.jpg" alt="Nature Care Trust Emblem" class="w-12 h-12 md:w-14 md:h-14 rounded-full object-cover shadow-sm ring-2 ring-forest/15 group-hover:ring-terracotta transition-all duration-300">
+      </a>
+
+      <!-- DESKTOP NAV -->
+      <nav class="hidden md:flex items-center space-x-8 font-medium text-[15px] text-forest/90">
+        <a href="/" class="hover:text-terracotta transition-colors">Home</a>
+        <a href="/about-us/" class="hover:text-terracotta transition-colors">About Us</a>
+        <a href="/living-programs/" class="hover:text-terracotta transition-colors">Living Programs</a>
+        <a href="/blog/" class="text-terracotta font-semibold hover:text-forest transition-colors">Blog</a>
+        <a href="/contact-and-visit/" class="hover:text-terracotta transition-colors">Contact & Visit</a>
+      </nav>
+
+      <!-- CTA BUTTON -->
+      <div class="hidden sm:flex items-center space-x-4">
+        <a href="/#plant-gift" class="inline-flex items-center justify-center px-5 py-2.5 rounded-full text-sm font-semibold text-white bg-terracotta hover:bg-terracotta-light shadow-md transition-all duration-200">
+          Plant a Tree
+        </a>
+      </div>
+
+      <!-- MOBILE TOGGLE -->
+      <button id="mobileMenuBtn" type="button" class="md:hidden p-2 rounded-lg text-forest hover:bg-forest/10 focus:outline-none">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+
+    <!-- MOBILE MENU -->
+    <div id="mobileMenu" class="hidden md:hidden bg-sage-light border-b border-forest/10 px-6 py-5 space-y-4 shadow-xl">
+      <a href="/" class="block text-base font-medium text-forest hover:text-terracotta">Home</a>
+      <a href="/about-us/" class="block text-base font-medium text-forest hover:text-terracotta">About Us</a>
+      <a href="/living-programs/" class="block text-base font-medium text-forest hover:text-terracotta">Living Programs</a>
+      <a href="/blog/" class="block text-base font-semibold text-terracotta">Blog</a>
+      <a href="/contact-and-visit/" class="block text-base font-medium text-forest hover:text-terracotta">Contact & Visit</a>
+      <div class="pt-2">
+        <a href="/#plant-gift" class="w-full inline-flex items-center justify-center px-5 py-3 rounded-full text-sm font-semibold text-white bg-terracotta text-center">
+          Plant a Tree (80G)
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ARTICLE READER CONTAINER -->
+  <main class="py-16">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Back Button -->
+      <a href="/blog/" class="inline-flex items-center text-xs font-bold text-terracotta uppercase tracking-wider hover:text-forest mb-8">
+        <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        Back to Field Notes
+      </a>
+
+      <!-- Article Header -->
+      <div class="mb-10">
+        <div class="flex items-center space-x-3 text-xs font-semibold text-terracotta uppercase tracking-wider mb-3">
+          <span id="postCategory" class="px-3 py-1 bg-white rounded-full border border-forest/10">Western Ghats</span>
+          <span id="postReadTime" class="text-forest/60">5 min read</span>
+          <span class="text-forest/40">•</span>
+          <span id="postDate" class="text-forest/60">October 2026</span>
+        </div>
+        <h1 id="postTitle" class="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-forest leading-tight mb-4">
+          Loading field note...
+        </h1>
+        <div class="flex items-center space-x-3 pt-4 border-t border-forest/10 text-xs text-forest/70">
+          <div class="w-8 h-8 rounded-full bg-forest text-golden flex items-center justify-center font-bold">N</div>
+          <div>
+            <span class="font-bold text-forest" id="postAuthor">Ecology Field Desk</span>
+            <span class="block text-forest/50">Nature Care Trust Research Team</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Article Body Card -->
+      <article class="bg-white rounded-3xl p-8 sm:p-12 shadow-md border border-forest/10">
+        <div id="postBody" class="prose max-w-none text-forest/85 leading-relaxed space-y-6 text-base sm:text-lg">
+          <p>Fetching article content from repository...</p>
+        </div>
+      </article>
+
+      <!-- Dedication Callout at Bottom -->
+      <div class="mt-12 bg-forest text-white rounded-3xl p-8 sm:p-10 flex flex-col sm:flex-row items-center justify-between gap-6 shadow-xl">
+        <div>
+          <h3 class="font-serif text-2xl font-bold mb-2">Support This Living Field Work</h3>
+          <p class="text-sage/80 text-sm max-w-md">Every tree you plant directly expands these native groves and funds elder respite care in the Western Ghats.</p>
+        </div>
+        <a href="/#plant-gift" class="px-6 py-3.5 rounded-full font-bold bg-golden text-forest hover:bg-yellow-200 transition-all text-sm whitespace-nowrap">
+          Plant a Tree (80G Tax-Exempt)
+        </a>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-forest text-sage pt-12 pb-8 border-t border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-xs text-sage/60">
+      © 2006–2026 Nature Care Trust. Registered Public Charitable Trust Reg. No. E-21448. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    const mobileBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    mobileBtn.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+
+    async function loadPost() {
+      const params = new URLSearchParams(window.location.search);
+      const slug = params.get('slug') || 'reviving-ancient-sacred-groves';
+
+      try {
+        const res = await fetch(`/api/blogs.php?slug=${encodeURIComponent(slug)}`);
+        if (!res.ok) throw new Error('Not found');
+        const post = await res.json();
+
+        document.getElementById('postTitle').textContent = post.title;
+        document.getElementById('pageTitle').textContent = `${post.title} | Nature Care Trust`;
+        document.getElementById('postCategory').textContent = post.category || 'Chronicle';
+        document.getElementById('postReadTime').textContent = post.readTime || '5 min read';
+        document.getElementById('postDate').textContent = post.date || 'October 2026';
+        document.getElementById('postAuthor').textContent = post.author || 'Nature Care Trust';
+
+        // Render body
+        const bodyEl = document.getElementById('postBody');
+        if (post.content) {
+          // simple formatting: split by newlines or paragraphs
+          const paragraphs = post.content.split('\n\n');
+          bodyEl.innerHTML = paragraphs.map(p => `<p class="leading-relaxed mb-4">${p.replace(/\n/g, '<br>')}</p>`).join('');
+        }
+      } catch (e) {
+        document.getElementById('postTitle').textContent = 'Reviving Ancient Sacred Groves: A Botanical Odyssey';
+        document.getElementById('postBody').innerHTML = `
+          <p class="leading-relaxed">Across the mist-laden ridges of the Western Ghats, ancient sacred groves—locally known as <em>Devrais</em>—have stood as self-contained ecological sanctuaries for over a millennium. Protected by indigenous village elders who believed trees housed benevolent spirits, these sacred patches resisted loggers and clearcutters when surrounding forests fell.</p>
+          <p class="leading-relaxed">In 2026, Nature Care Trust embarked on a systematic botanical mapping project across 14 fragmented groves. Working shoulder-to-shoulder with village botanists and retired elders, our team documented 42 rare indigenous tree species, including keystone <em>Ficus amplissima</em>, <em>Madhuca longifolia</em>, and endangered wild medicinal shrubs that had vanished from standard forest department plantations.</p>
+          <p class="leading-relaxed">The presence of our elders in these groves serves a dual purpose. When seniors walk through the undisturbed canopy, stress cortisol levels decrease dramatically. Simultaneously, their memories of ancient fruiting cycles guide younger volunteers in setting seed traps and collecting indigenous seeds before monsoon rains arrive.</p>
+        `;
+      }
+    }
+
+    loadPost();
+  </script>
+</body>
+</html>

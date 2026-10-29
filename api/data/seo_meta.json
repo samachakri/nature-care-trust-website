@@ -1,0 +1,37 @@
+{
+  "home": {
+    "metaTitle": "Nature Care Trust | Sacred Groves, Native Afforestation & Elder Care",
+    "metaDescription": "Registered 80G charitable trust restoring native forest canopies, providing barrier-free elder nature respite, and nurturing sacred groves in the Western Ghats.",
+    "focusKeyword": "native tree plantation elder care",
+    "canonicalUrl": "https://naturecaretrust.com/",
+    "ogImage": "/assets/images/hero-forest.jpg"
+  },
+  "about": {
+    "metaTitle": "About Us | Rooted in Soil, Bound by Care - Nature Care Trust",
+    "metaDescription": "Learn about Nature Care Trust's 18+ year history, our trust charter, leadership trustees, and commitment to intergenerational ecological conservation.",
+    "focusKeyword": "nature care trust western ghats",
+    "canonicalUrl": "https://naturecaretrust.com/about-us/",
+    "ogImage": "/assets/images/family-planting.jpg"
+  },
+  "programs": {
+    "metaTitle": "Living Programs | Rural Afforestation & Elder Nature Sanctuaries",
+    "metaDescription": "Explore our living programs: village native tree plantation drives, apartment gated greening, and intergenerational elder care in sacred groves.",
+    "focusKeyword": "afforestation living programs",
+    "canonicalUrl": "https://naturecaretrust.com/living-programs/",
+    "ogImage": "/assets/images/village-trees.jpg"
+  },
+  "blog": {
+    "metaTitle": "Field Notes & Grove Chronicles | Stories from the Soil - Nature Care Trust",
+    "metaDescription": "Read field dispatches on native tree planting, elder forest healing, seed banking, and ecological renewal across the Western Ghats bio-reserve.",
+    "focusKeyword": "sacred groves field notes",
+    "canonicalUrl": "https://naturecaretrust.com/blog/",
+    "ogImage": "/assets/images/hero-forest.jpg"
+  },
+  "contact": {
+    "metaTitle": "Contact & Visit Us | Western Ghats Sanctuary Grounds - Nature Care Trust",
+    "metaDescription": "Plan your visit to our barrier-free woodland sanctuary, inquire about corporate CSR partnerships, or dedicate a tree grove with 80G tax benefits.",
+    "focusKeyword": "visit nature care trust sanctuary",
+    "canonicalUrl": "https://naturecaretrust.com/contact-and-visit/",
+    "ogImage": "/assets/images/family-planting.jpg"
+  }
+}

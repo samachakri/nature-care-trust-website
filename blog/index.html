@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Field Notes & Grove Chronicles | Stories from the Soil - Nature Care Trust</title>
+  <meta name="description" content="Read field dispatches on native tree planting, elder forest healing, seed banking, and ecological renewal across the Western Ghats bio-reserve.">
+  <meta name="keywords" content="sacred groves field notes, afforestation blog, elder care retreat stories, nature care trust journal">
+  <link rel="canonical" href="https://naturecaretrust.com/blog/">
+  
+  <link rel="icon" type="image/jpeg" href="/assets/images/logo.jpg">
+  <link rel="apple-touch-icon" href="/assets/images/logo.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            forest: '#012413',
+            'forest-dark': '#00170c',
+            pine: '#02371d',
+            sage: '#e9ffec',
+            'sage-light': '#f4fbf5',
+            mint: '#c7fad6',
+            terracotta: '#7d562d',
+            'terracotta-light': '#986b3b',
+            golden: '#ffdf96'
+          },
+          fontFamily: {
+            serif: ['"Source Serif 4"', 'Georgia', 'serif'],
+            sans: ['"Manrope"', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="font-sans text-forest bg-sage-light antialiased selection:bg-mint selection:text-forest">
+
+  <!-- TOP BAR -->
+  <div class="bg-forest text-sage text-xs py-2 px-4 text-center tracking-wide border-b border-white/10 font-medium">
+    <span>🌱 Contributions are eligible for 50% Tax Exemption under Section 80G • Reg. No. E-21448</span>
+  </div>
+
+  <!-- NAVIGATION HEADER -->
+  <header class="sticky top-0 z-50 bg-[#e9ffec]/95 backdrop-blur-md border-b border-forest/10 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- LOGO ONLY -->
+      <a href="/" class="flex items-center group py-2" aria-label="Nature Care Trust Home">
+        <img src="/assets/images/logo.jpg" alt="Nature Care Trust Emblem" class="w-12 h-12 md:w-14 md:h-14 rounded-full object-cover shadow-sm ring-2 ring-forest/15 group-hover:ring-terracotta transition-all duration-300">
+      </a>
+
+      <!-- DESKTOP NAV -->
+      <nav class="hidden md:flex items-center space-x-8 font-medium text-[15px] text-forest/90">
+        <a href="/" class="hover:text-terracotta transition-colors">Home</a>
+        <a href="/about-us/" class="hover:text-terracotta transition-colors">About Us</a>
+        <a href="/living-programs/" class="hover:text-terracotta transition-colors">Living Programs</a>
+        <a href="/blog/" class="text-terracotta font-semibold hover:text-forest transition-colors">Blog</a>
+        <a href="/contact-and-visit/" class="hover:text-terracotta transition-colors">Contact & Visit</a>
+      </nav>
+
+      <!-- CTA BUTTON -->
+      <div class="hidden sm:flex items-center space-x-4">
+        <a href="/#plant-gift" class="inline-flex items-center justify-center px-5 py-2.5 rounded-full text-sm font-semibold text-white bg-terracotta hover:bg-terracotta-light shadow-md transition-all duration-200">
+          Plant a Tree
+        </a>
+      </div>
+
+      <!-- MOBILE TOGGLE -->
+      <button id="mobileMenuBtn" type="button" class="md:hidden p-2 rounded-lg text-forest hover:bg-forest/10 focus:outline-none">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+
+    <!-- MOBILE MENU -->
+    <div id="mobileMenu" class="hidden md:hidden bg-sage-light border-b border-forest/10 px-6 py-5 space-y-4 shadow-xl">
+      <a href="/" class="block text-base font-medium text-forest hover:text-terracotta">Home</a>
+      <a href="/about-us/" class="block text-base font-medium text-forest hover:text-terracotta">About Us</a>
+      <a href="/living-programs/" class="block text-base font-medium text-forest hover:text-terracotta">Living Programs</a>
+      <a href="/blog/" class="block text-base font-semibold text-terracotta">Blog</a>
+      <a href="/contact-and-visit/" class="block text-base font-medium text-forest hover:text-terracotta">Contact & Visit</a>
+      <div class="pt-2">
+        <a href="/#plant-gift" class="w-full inline-flex items-center justify-center px-5 py-3 rounded-full text-sm font-semibold text-white bg-terracotta text-center">
+          Plant a Tree (80G)
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- PAGE HERO -->
+  <section class="relative py-20 bg-forest text-white overflow-hidden">
+    <div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <span class="inline-block px-4 py-1.5 rounded-full bg-white/10 text-mint text-xs font-semibold uppercase tracking-wider mb-4">
+        From The Soil
+      </span>
+      <h1 class="font-serif text-4xl sm:text-5xl font-bold leading-tight mb-4">
+        Field Notes & Grove Chronicles
+      </h1>
+      <p class="text-lg text-sage/80 leading-relaxed font-light max-w-xl mx-auto">
+        Dispatches from our ecologists, elder caregivers, and village coordinators across the Western Ghats.
+      </p>
+    </div>
+  </section>
+
+  <!-- FILTER & SEARCH BAR -->
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-7 relative z-20">
+    <div class="bg-white rounded-2xl shadow-md border border-forest/10 p-4 flex flex-col md:flex-row items-center justify-between gap-4">
+      
+      <!-- Tags -->
+      <div class="flex flex-wrap gap-2 text-xs font-semibold" id="categoryFilters">
+        <button class="filter-btn active px-4 py-2 rounded-xl bg-forest text-white transition-colors" data-cat="all">All Chronicles</button>
+        <button class="filter-btn px-4 py-2 rounded-xl bg-forest/5 text-forest hover:bg-forest/10 transition-colors" data-cat="Western Ghats">Western Ghats</button>
+        <button class="filter-btn px-4 py-2 rounded-xl bg-forest/5 text-forest hover:bg-forest/10 transition-colors" data-cat="Elder Care">Elder Care</button>
+        <button class="filter-btn px-4 py-2 rounded-xl bg-forest/5 text-forest hover:bg-forest/10 transition-colors" data-cat="Community">Community</button>
+      </div>
+
+      <!-- Search Box -->
+      <div class="w-full md:w-72">
+        <input type="text" id="searchInput" placeholder="Search field notes..." class="w-full px-4 py-2 rounded-xl border border-forest/20 text-xs focus:outline-none focus:border-terracotta">
+      </div>
+
+    </div>
+  </div>
+
+  <!-- BLOG FEED GRID -->
+  <section class="py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div id="blogContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Rendered dynamically from /api/blogs.php or fallback -->
+        <div class="p-8 text-center text-forest/60 col-span-3">Loading grove chronicles...</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-forest text-sage pt-12 pb-8 border-t border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-xs text-sage/60">
+      © 2006–2026 Nature Care Trust. Registered Public Charitable Trust Reg. No. E-21448. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    const mobileBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    mobileBtn.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+
+    let allBlogs = [];
+
+    async function fetchBlogs() {
+      const container = document.getElementById('blogContainer');
+      try {
+        const res = await fetch('/api/blogs.php');
+        if (!res.ok) throw new Error('API fetch error');
+        allBlogs = await res.json();
+        renderBlogs(allBlogs);
+      } catch (err) {
+        console.error('Fallback static render:', err);
+        container.innerHTML = `
+          <article class="p-7 rounded-3xl bg-white border border-forest/10 hover:shadow-xl transition-all flex flex-col justify-between">
+            <div>
+              <span class="text-xs font-bold text-terracotta uppercase">Western Ghats</span>
+              <h2 class="font-serif text-2xl font-bold text-forest mt-2 mb-3">Reviving Ancient Sacred Groves: A Botanical Odyssey</h2>
+              <p class="text-sm text-forest/70 mb-6">How our ecological team identified 42 keystone tree species and reconnected fragmented forest corridors with village youth.</p>
+            </div>
+            <a href="/blog/post.html?slug=reviving-ancient-sacred-groves" class="text-sm font-bold text-terracotta hover:text-forest">Read Full Field Note →</a>
+          </article>
+        `;
+      }
+    }
+
+    function renderBlogs(list) {
+      const container = document.getElementById('blogContainer');
+      if (!list || list.length === 0) {
+        container.innerHTML = '<div class="col-span-3 text-center py-12 text-forest/60">No articles found matching your criteria.</div>';
+        return;
+      }
+
+      container.innerHTML = list.map(b => `
+        <article class="p-7 rounded-3xl bg-white border border-forest/10 hover:shadow-xl hover:border-terracotta/30 transition-all flex flex-col justify-between group">
+          <div>
+            <div class="flex items-center justify-between text-xs text-forest/60 mb-3">
+              <span class="font-semibold text-terracotta uppercase tracking-wider">${b.category || 'Chronicle'}</span>
+              <span>${b.readTime || '5 min read'}</span>
+            </div>
+            <h2 class="font-serif text-2xl font-bold text-forest group-hover:text-terracotta transition-colors mb-3">
+              <a href="/blog/post.html?slug=${b.slug}">${b.title}</a>
+            </h2>
+            <p class="text-sm text-forest/75 leading-relaxed mb-6">
+              ${b.excerpt || ''}
+            </p>
+          </div>
+          <div class="pt-4 border-t border-forest/10 flex items-center justify-between text-xs">
+            <span class="text-forest/60">By ${b.author || 'Nature Care Trust'}</span>
+            <a href="/blog/post.html?slug=${b.slug}" class="font-bold text-terracotta hover:text-forest inline-flex items-center">
+              Read Note <svg class="w-3.5 h-3.5 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </article>
+      `).join('');
+    }
+
+    // Filter Buttons
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-btn').forEach(b => {
+          b.classList.remove('bg-forest', 'text-white', 'active');
+          b.classList.add('bg-forest/5', 'text-forest');
+        });
+        btn.classList.add('bg-forest', 'text-white', 'active');
+        btn.classList.remove('bg-forest/5', 'text-forest');
+
+        const cat = btn.dataset.cat;
+        if (cat === 'all') {
+          renderBlogs(allBlogs);
+        } else {
+          renderBlogs(allBlogs.filter(b => b.category && b.category.toLowerCase().includes(cat.toLowerCase())));
+        }
+      });
+    });
+
+    // Search Box
+    document.getElementById('searchInput').addEventListener('input', (e) => {
+      const q = e.target.value.toLowerCase();
+      const filtered = allBlogs.filter(b => 
+        b.title.toLowerCase().includes(q) || 
+        (b.excerpt && b.excerpt.toLowerCase().includes(q))
+      );
+      renderBlogs(filtered);
+    });
+
+    fetchBlogs();
+  </script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "m1",
+    "name": "logo.jpg",
+    "title": "Nature Care Trust Official Emblem",
+    "url": "/assets/images/logo.jpg",
+    "size": "128 KB",
+    "date": "2026-10-29"
+  },
+  {
+    "id": "m2",
+    "name": "hero-forest.jpg",
+    "title": "Western Ghats Ancient Grove Canopy",
+    "url": "/assets/images/hero-forest.jpg",
+    "size": "480 KB",
+    "date": "2026-10-29"
+  },
+  {
+    "id": "m3",
+    "name": "family-planting.jpg",
+    "title": "Intergenerational Tree Plantation",
+    "url": "/assets/images/family-planting.jpg",
+    "size": "390 KB",
+    "date": "2026-10-29"
+  },
+  {
+    "id": "m4",
+    "name": "village-trees.jpg",
+    "title": "Village Native Sapling Nursery",
+    "url": "/assets/images/village-trees.jpg",
+    "size": "410 KB",
+    "date": "2026-10-29"
+  }
+]
