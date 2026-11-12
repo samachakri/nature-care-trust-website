@@ -1,47 +1,47 @@
 {
   "hero": {
-    "headline": "Where elders and ancient forests flourish together.",
-    "subtitle": "A barrier-free woodland sanctuary uniting elder care, indigenous groves, and intergenerational stewardship across the Western Ghats.",
-    "exploreBtnText": "Explore Sanctuary ↓",
-    "exploreBtnLink": "#programs-services",
-    "donateBtnText": "Plant a Tree (80G Tax-Exempt)",
-    "donateBtnLink": "#plant-gift",
+    "headline": "Growing Native Trees. Creating Lush Gardens. Restoring Green India.",
+    "subtitle": "We plant native forests in villages and design beautiful green spaces & gardens for apartments, offices, and homes.",
+    "exploreBtnText": "Our Initiatives",
+    "exploreBtnLink": "#services",
+    "donateBtnText": "Plant a Tree",
+    "donateBtnLink": "#dedicate-plant",
     "bgImage": "/assets/images/hero-forest.jpg"
   },
   "stats": {
-    "treesCount": "250,000+",
-    "treesLabel": "Native Canopy Trees",
-    "eldersCount": "18,400+",
-    "eldersLabel": "Elders Supported",
+    "treesCount": "2.5 Lakh +",
+    "treesLabel": "Native Trees Planted",
+    "eldersCount": "500+",
+    "eldersLabel": "Greened Landscaping Projects",
     "trailsCount": "100%",
-    "trailsLabel": "Barrier-Free Soft Trails",
-    "speciesCount": "42 Species",
-    "speciesLabel": "Sacred Banyan & Herbs"
+    "trailsLabel": "Native & Eco-Friendly",
+    "speciesCount": "42+ Species",
+    "speciesLabel": "Flora & Biodiversity"
   },
   "programs": [
     {
       "id": "p1",
-      "title": "Village Native Tree Plantation Drives",
-      "description": "Mass afforestation across rural commons and farmers' land, restoring depleted water tables and soil fertility.",
-      "tag": "Rural Forestry",
+      "title": "Village Tree Plantation",
+      "description": "Large-scale native sapling plantation drives. Banyan, Peepal, Jamun across rural pathways, schools, farmlands, and community commons to enrich soil & groundwater.",
+      "tag": "Rural Care",
       "image": "/assets/images/village-trees.jpg",
-      "highlight": "140+ village catchment groves"
+      "highlight": "Planting for Ecological Growth • 100+ 2.5 Lakh planted"
     },
     {
       "id": "p2",
-      "title": "Apartment & Gated Greening",
-      "description": "Urban micro-forests, organic kitchen gardens, and elder botanical relaxation gazebos inside residential communities.",
-      "tag": "Urban Forestry",
-      "image": "/assets/images/hero-forest.jpg",
-      "highlight": "45+ residential complexes"
+      "title": "Apartment & Office Landscaping",
+      "description": "Balcony gardens, terrace greenery, corporate indoor landscaping, vertical living walls, and scheduled organic plant care for modern residential and commercial offices.",
+      "tag": "Gated Communities",
+      "image": "/assets/images/apartment-landscaping.jpg",
+      "highlight": "Custom green designs • Professional maintenance teams"
     },
     {
       "id": "p3",
-      "title": "Elder Nature Respite & Day Care",
-      "description": "Day retreat sanctuary with soft pine needle walkways, sensory herbal beds, and intergenerational companionship.",
-      "tag": "Elder Wellness",
-      "image": "/assets/images/family-planting.jpg",
-      "highlight": "Daily transport & ayurvedic care"
+      "title": "Real Herbal Nursery & Organic Saplings",
+      "description": "Cultivation of authentic medicinal plants (Tulsi, Ashwagandha, Lemongrass, Amla) along with Miyawaki mini-forest development educating caretakers and botanical curiosity.",
+      "tag": "Biodiversity & Herbs",
+      "image": "/assets/images/herbal-nursery.jpg",
+      "highlight": "Heirloom native saplings • Organic compost & soil blend"
     }
   ],
   "trustDetails": {
@@ -51,7 +51,7 @@
     "taxRelief": "Section 80G (50% Tax Exemption - Reg #AAATN1843RF20214)",
     "phone": "+91 22 2847 9000 (Mon-Sat, 9AM-5PM)",
     "email": "care@naturecaretrust.org",
-    "address": "Banyan Valley Foothills, Sector 14, Western Ghats Reserve, MH - 410401",
-    "hours": "Visitor Gates Open Daily: 06:30 - 17:30"
+    "address": "Sector 14, Western Ghats Reserve, MH - 410401",
+    "hours": "Open daily: 06:30 - 17:30"
   }
 }
