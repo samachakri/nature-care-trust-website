@@ -1,32 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <!-- Homepage -->
   <url>
     <loc>https://naturecaretrust.com/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://naturecaretrust.com/assets/images/hero-slide-1.jpg</image:loc>
+      <image:title>Growing Native Trees and Restoring Green India - Nature Care Trust</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://naturecaretrust.com/assets/images/village-service.jpg</image:loc>
+      <image:title>Village Native Tree Plantation Services</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://naturecaretrust.com/assets/images/apartment-service.jpg</image:loc>
+      <image:title>Apartment and Office Landscaping Services</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://naturecaretrust.com/assets/images/nursery-service.jpg</image:loc>
+      <image:title>Desi Herbal Nursery and Organic Saplings</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://naturecaretrust.com/assets/images/banyan-feature.jpg</image:loc>
+      <image:title>Ficus benghalensis - Sacred Banyan of India</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://naturecaretrust.com/assets/images/plant-gift-hands.jpg</image:loc>
+      <image:title>Plant a Tree Gift - Nature Care Trust</image:title>
+    </image:image>
   </url>
+
+  <!-- About Us -->
   <url>
     <loc>https://naturecaretrust.com/about-us/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
+  <!-- Living Programs & Initiatives -->
   <url>
     <loc>https://naturecaretrust.com/living-programs/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
+
+  <!-- Blog / Stories -->
   <url>
     <loc>https://naturecaretrust.com/blog/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.85</priority>
   </url>
+
+  <!-- Blog Post: Sacred Groves of the Western Ghats -->
+  <url>
+    <loc>https://naturecaretrust.com/blog/sacred-groves-of-western-ghats</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog Post: Intergenerational Forest Healing -->
+  <url>
+    <loc>https://naturecaretrust.com/blog/intergenerational-forest-healing</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog Post: Restoring 140 Village Wells -->
+  <url>
+    <loc>https://naturecaretrust.com/blog/restoring-140-village-wells</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Contact & Visit -->
   <url>
     <loc>https://naturecaretrust.com/contact-and-visit/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

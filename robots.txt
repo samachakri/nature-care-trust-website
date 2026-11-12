@@ -1,6 +1,15 @@
+# robots.txt for Nature Care Trust (https://naturecaretrust.com)
 User-agent: *
 Allow: /
 Disallow: /api/
 Disallow: /dashboard/
 
+# Static Assets
+Allow: /assets/
+Allow: /assets/images/
+
+# Host
+Host: https://naturecaretrust.com
+
+# XML Sitemap
 Sitemap: https://naturecaretrust.com/sitemap.xml
