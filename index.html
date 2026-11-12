@@ -16,6 +16,11 @@
   <link rel="icon" type="image/jpeg" href="assets/images/logo.jpg">
   <link rel="apple-touch-icon" href="assets/images/logo.jpg">
 
+  <!-- Preload 4K Hero Banner Images for Instant Zero-Lag Display -->
+  <link rel="preload" as="image" href="assets/images/hero-slide-1.jpg">
+  <link rel="preload" as="image" href="assets/images/hero-slide-2.jpg">
+  <link rel="preload" as="image" href="assets/images/hero-slide-3.jpg">
+
   <!-- Google Fonts & Material Symbols -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
@@ -134,14 +139,19 @@
       <!-- ======================================================== -->
       <section class="relative w-full overflow-hidden bg-[#072415] text-white -mt-20">
         
-        <!-- Crossfading Carousel Background Slides with Dual Fallback -->
+        <!-- Crossfading 4K Carousel Background Slides with Dual Fallback -->
         <div class="absolute inset-0 pointer-events-none" id="hero-carousel-container">
-          <div class="hero-slide absolute inset-0 bg-cover bg-center transition-all duration-1000 ease-in-out opacity-100 scale-100" style="background-image: url('assets/images/hero-slide-3.jpg'), url('https://lh3.googleusercontent.com/aida/ALJJyrAPOH2J4OH0CYa5Tm8SonFont1WdhjF0qTG2w_BqD9bhBPLZTgHhkzkzbUVeNEWZaCjJhxO2x7whq7V7FE_vFTHEZxcAzN7zZ3valKwA7xqYaQboU9SmqJvgmiEDGH4CKt0g4ShLCoG6jYa3pwCq63T0AUCmxo4VNxDrzRcbjvEmmyoXIyzhQjkH_dVTFFxQnWKLO8PoOqh7n-E8pknXJAO51bEOInReh5aDa84fk5n');"></div>
-          <div class="hero-slide absolute inset-0 bg-cover bg-center transition-all duration-1000 ease-in-out opacity-0 scale-105" style="background-image: url('assets/images/hero-slide-1.jpg'), url('https://lh3.googleusercontent.com/aida/ALJJyrAau3-XStshnhZ0ofTBmpxRN4Qxqw4Bn1Vbm06a2wzWavge57qcEWE5J6LReUR98ceqOnIYZgjHbyOc20-gXqYSe6E-ul_h4bzJ5VWd2wbAQKKpXjE3qJQW4A5XkE3rT97pwrA36FpEIbxNLt5y0APKU61pA7btUdIOML9T63ihpJEAtpA1kLAGaajuhtqFybjA7WXmRi48nYoct0QZYX_JasqAKvV5xCovE20ETg6v');"></div>
-          <div class="hero-slide absolute inset-0 bg-cover bg-center transition-all duration-1000 ease-in-out opacity-0 scale-105" style="background-image: url('assets/images/hero-slide-2.jpg'), url('https://lh3.googleusercontent.com/aida/ALJJyrARfdbEgdTokUdKSUSmbRF9e4njC7LrzoYx2Pbe8dZgDi2VCkw_Td9OxpzFAEtd0kEvQNgC2kvbzxfsoL7IIr0ICs1OZru6CLeHl6xzRFXCYwsevyWnT4JvGCbaSK0Kmn36CuSiyj542PvGr5kUgWL07Of98PjFuU899Rwl11ITJEYbqndAX8RRA_B8cVaLpvwxIVeoZOskC3jj3-yJ40YUqqgyVzu_Ux2P3o25inUp');"></div>
+          <!-- Slide 1: Multi-generational Indian family planting native banyan sapling in sunlit Western Ghats grove -->
+          <div class="hero-slide absolute inset-0 bg-cover bg-center transition-all duration-1000 ease-in-out opacity-100 scale-100" style="background-image: url('assets/images/hero-slide-1.jpg'), url('https://lh3.googleusercontent.com/aida/ALJJyrAPOH2J4OH0CYa5Tm8SonFont1WdhjF0qTG2w_BqD9bhBPLZTgHhkzkzbUVeNEWZaCjJhxO2x7whq7V7FE_vFTHEZxcAzN7zZ3valKwA7xqYaQboU9SmqJvgmiEDGH4CKt0g4ShLCoG6jYa3pwCq63T0AUCmxo4VNxDrzRcbjvEmmyoXIyzhQjkH_dVTFFxQnWKLO8PoOqh7n-E8pknXJAO51bEOInReh5aDa84fk5n');"></div>
+          
+          <!-- Slide 2: Inspiring community plantation drive with rural villagers and volunteers along scenic trail -->
+          <div class="hero-slide absolute inset-0 bg-cover bg-center transition-all duration-1000 ease-in-out opacity-0 scale-105" style="background-image: url('assets/images/hero-slide-2.jpg'), url('https://lh3.googleusercontent.com/aida/ALJJyrAau3-XStshnhZ0ofTBmpxRN4Qxqw4Bn1Vbm06a2wzWavge57qcEWE5J6LReUR98ceqOnIYZgjHbyOc20-gXqYSe6E-ul_h4bzJ5VWd2wbAQKKpXjE3qJQW4A5XkE3rT97pwrA36FpEIbxNLt5y0APKU61pA7btUdIOML9T63ihpJEAtpA1kLAGaajuhtqFybjA7WXmRi48nYoct0QZYX_JasqAKvV5xCovE20ETg6v');"></div>
+          
+          <!-- Slide 3: Eco-friendly terrace and vertical garden landscaping with Indian couple tending to herbs -->
+          <div class="hero-slide absolute inset-0 bg-cover bg-center transition-all duration-1000 ease-in-out opacity-0 scale-105" style="background-image: url('assets/images/hero-slide-3.jpg'), url('https://lh3.googleusercontent.com/aida/ALJJyrARfdbEgdTokUdKSUSmbRF9e4njC7LrzoYx2Pbe8dZgDi2VCkw_Td9OxpzFAEtd0kEvQNgC2kvbzxfsoL7IIr0ICs1OZru6CLeHl6xzRFXCYwsevyWnT4JvGCbaSK0Kmn36CuSiyj542PvGr5kUgWL07Of98PjFuU899Rwl11ITJEYbqndAX8RRA_B8cVaLpvwxIVeoZOskC3jj3-yJ40YUqqgyVzu_Ux2P3o25inUp');"></div>
         </div>
 
-        <!-- Clean, Reduced Natural Scrim (Images are clear and vivid, no heavy flat green tint) -->
+        <!-- Clean, Reduced Natural Scrim (Crystal clear 4K photography, no heavy dark green overlay) -->
         <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/35 to-black/15 pointer-events-none"></div>
         <div class="absolute inset-0 bg-gradient-to-r from-black/65 via-black/25 to-transparent pointer-events-none"></div>
 
